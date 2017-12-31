@@ -5,10 +5,10 @@
 */target/
 *.class
 *.idea/
+*.mvn/
 *.iml
 */target/*
 .idea/workspace.xml
-*.class
 
 # Log file
 *.log
