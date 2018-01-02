@@ -1,4 +1,4 @@
-package xyz.theone.springbootlearning.helloworld;
+package xyz.theone.springbootlearning.jpa;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
