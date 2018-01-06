@@ -21,6 +21,7 @@
         <module>spring-boot-learning-jpa</module>
         <module>spring-boot-learning-mybatis</module>
         <module>spring-boot-learning-restful</module>
+        <module>spring-boot-learning-swagger</module>
     </modules>
 
     <properties>
