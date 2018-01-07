@@ -43,14 +43,14 @@ public class UserController {
     }
 
     @ApiOperation("根据用户ID获取用户信息")
-    @ApiImplicitParam(name = "id", value = "用户ID", required = true, dataType = "Long")
+    @ApiImplicitParam(name = "id", value = "用户ID", required = true, dataType = "Long", paramType = "path")
     @GetMapping("/{id}")
     public User findUserById(@PathVariable("id") Long id){
         return userMap.get(id);
     }
 
     @ApiOperation("删除用户信息")
-    @ApiImplicitParam(name = "id", value = "用户ID", required = true, dataType = "Long")
+    @ApiImplicitParam(name = "id", value = "用户ID", required = true, dataType = "Long", paramType = "path")
     @GetMapping("/delete/{id}")
     public Boolean deleteUserById(@PathVariable("id") Long id){
         User user = userMap.remove(id);
