@@ -22,6 +22,7 @@
         <module>spring-boot-learning-mybatis</module>
         <module>spring-boot-learning-restful</module>
         <module>spring-boot-learning-swagger</module>
+        <module>spring-boot-learning-multidatasource</module>
     </modules>
 
     <properties>
